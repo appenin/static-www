@@ -20,7 +20,7 @@ body {
 }
 
 main, footer {
-  max-width: 596px;
+  max-width: 648px;
 }
 
 h1 {
@@ -53,17 +53,19 @@ main a {
 }
 
 p {
-  padding: 0 20px;
-}
-
-p:first-of-type, p:last-of-type {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 ul {
   margin-inline-start: 1rem;
   padding: 1rem;
   padding-top: 0;
+}
+
+ul.raw {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
 }
 
 li {
@@ -104,6 +106,46 @@ footer a:hover {
   font-size: 0.875rem;
   gap: 16px;
   margin: 12px;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.layout-alt {
+  color: rgb(24, 42, 41);
+  padding: 16px 32px;
+}
+
+.layout-alt h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.layout-alt h2, .layout-alt h3, .layout-alt h4 {
+  margin: 16px 0;
+}
+
+.layout-alt ul {
+  margin-inline-start: 2.5rem;
+  padding: 0;
+}
+
+.layout-alt > ul {
+  margin-top: 1rem;
+}
+
+.layout-alt li {
+  margin: 0;
+}
+
+.layout-alt li a {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 600px) {
